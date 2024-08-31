@@ -1,0 +1,31 @@
+/* QuemEuSou.css */
+
+.quem-eu-sou-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Centraliza o texto na tela */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.resumo {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.resumo ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resumo ul li {
+    margin: 10px 0;
+}

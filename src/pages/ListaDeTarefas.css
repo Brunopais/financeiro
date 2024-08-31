@@ -1,0 +1,83 @@
+/* ListaDeTarefas.css */
+
+.lista-tarefas-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.entrada-tarefa {
+    margin-bottom: 20px;
+}
+
+.entrada-tarefa label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.entrada-tarefa input {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.tarefas-lista {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tarefas-lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarefas-lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tarefas-lista li.concluida span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.tarefas-lista button {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.tarefas-lista button:hover {
+    background-color: #c82333;
+}

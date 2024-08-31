@@ -1,0 +1,114 @@
+/* Financeiro.css */
+
+.financeiro-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.abas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.abas button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.abas button.ativa {
+    background-color: #0056b3;
+}
+
+.abas button:not(.ativa):hover {
+    background-color: #0069d9;
+}
+
+.abas-secundarias {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.abas-secundarias button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.abas-secundarias button.ativa {
+    background-color: #218838;
+}
+
+.abas-secundarias button:not(.ativa):hover {
+    background-color: #1e7e34;
+}
+
+.conteudo {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.lista-entradas {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lista-entradas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-entradas li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.totais {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
