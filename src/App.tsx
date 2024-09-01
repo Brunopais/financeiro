@@ -5,6 +5,7 @@ import ListaDeTarefas from './pages/ListaDeTarefas';
 import Financeiro from './pages/Financeiro';
 import QuemEuSou from './pages/QuemEuSou';
 import CotacoesAtuais from './pages/CotacoesAtuais';
+import AnaliseDeDados from './pages/AnaliseDeDados';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Route path="/financeiro" element={<Financeiro />} />
         <Route path="/quem-eu-sou" element={<QuemEuSou />} />
         <Route path="/cotacoes-atuais" element={<CotacoesAtuais />} /> {/* Nova rota */}
+        <Route path="/analise-de-dados" element={<AnaliseDeDados />} />
       </Routes>
     </Router>
   );

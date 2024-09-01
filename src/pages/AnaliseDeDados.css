@@ -1,0 +1,72 @@
+/* AnaliseDeDados.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    /* Adiciona uma cor de fundo suave */
+}
+
+.container {
+    width: 90%;
+    /* Define a largura da página com espaço lateral */
+    max-width: 1200px;
+    /* Limita a largura máxima */
+    margin: 20px auto;
+    /* Centraliza o container horizontalmente com margem em cima e embaixo */
+    padding: 20px;
+    background: #fff;
+    /* Fundo branco para a área da tabela */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra sutil */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    color: #555;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

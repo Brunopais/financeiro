@@ -10,6 +10,7 @@ const Menu: React.FC = () => {
                 <li><Link to="/financeiro">Financeiro</Link></li>
                 <li><Link to="/quem-eu-sou">Quem Eu Sou</Link></li>
                 <li><Link to="/cotacoes-atuais"> Cotações Atuais</Link></li>
+                <li><Link to="/analise-de-dados">Análise de Dados</Link></li>
             </ul>
         </nav>
     );
